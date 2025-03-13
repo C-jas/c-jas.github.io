@@ -1,0 +1,178 @@
+/* bootstrap overwrites and normal css */
+:root {
+    --background-color: white;
+    --font-color: #171717;
+    /*----*/
+    --highlight-color: rgb(0, 123, 255);
+}
+
+/* many attributes taken and localized from bootstrap */
+
+
+
+.navbar {
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--font-color);
+    text-align: left;
+    background-color: var(--background-color);
+  }
+
+html, body {
+    height: 100%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+.h2, h2 {
+    font-size: 2rem;
+  }
+
+.h3, h3 {
+    font-size: 1.75rem;
+  }
+
+.h4, h4 {
+    font-size: 1.5rem;
+  }
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer a {
+    color: var(--font-color);
+}
+
+iframe .footer {
+  height: 8%
+}
+
+.footer .container {
+    padding: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--font-color);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  
+  .footer {
+        position: static !important;
+  }
+
+  iframe .footer {
+    height: 8%
+  }
+
+  
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }

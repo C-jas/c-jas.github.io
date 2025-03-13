@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrADeMaS</title>
+    <link rel="stylesheet" href="startseite-dateien/styling.css">
+    <link rel="stylesheet" href="startseite-dateien/bootstrap.min.css">
+    
+
+        <!-- jQuery and Bootstrap JS -->
+    <script src="startseite-dateien/jquery-3.3.1.min.js"></script>
+    <script defer="defer" src="startseite-dateien/bootstrap.bundle.min.js" async=""></script>
+
+    <!-- language toggle JS-->
+    <script defer="defer" src="startseite-dateien/language-toggle.js"></script>
+
+
+
+</head>
+<body data-new-gr-c-s-check-loaded="8.927.0" data-gr-ext-installed="">
+
+    <nav id="cm-nav" class="navbar navbar-expand-md navbar-light fixed-top">
+        <!-- Logo TBD later-->
+
+        <!-- Menu toggle button for mobile CURRENTLY NOT WORKING !!!!!!!!!!!!!-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar entries -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul id="cm-nav-list" class="navbar-nav ml-5 smooth-scroll">
+                <li class="nav-item"><a class="nav-link" href="./index.html"> Start</a></li>
+                <li class="nav-item"><a class="nav-link" href="./team.html">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="./publikationen.html"> <span lang="de"> Publikationen </span>
+                                                                                      <span lang="en">Publications</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="./kontakt.html"> <span lang="de"> Kontakt </span>
+                                                                                <span lang="en"> Contact</span></a></li>
+            </ul>
+        </div>
+
+
+        <form>
+            <label for="lang-switch">
+                <span lang="de">Sprache</span>
+                <span lang="en">Language</span>
+            </label>
+            <select id="lang-switch">
+                <option value="de" selected>Deutsch</option>
+                <option value="en">English</option>
+            </select>
+        </form>
+    
+
+    </nav>
+
+
+
+    <div  class="container-fluid">
+        <section class="container-fluid">
+            <div class="container cm-vorstellung">
+                <h1>TrADeMaS</h1>
+                <h4 class="mb-5 text-muted" lang="de">Transparenz von Algorithmic Decision Making Systems</h4>
+                <h4 class="mb-5 text-muted" lang="en">Transparency of Algorithmic Decision Making Systems</h4>
+
+                <p lang="de">In den letzten Jahren wurden immer mehr algorithmische Entscheidungsunterstützungssysteme eingesetzt, 
+                    um Entscheidungen über Bürger und Bürgerinnen zu treffen. 
+                    Die meisten dieser Systeme gehören zur großen Gruppe der sogenannten Künstlichen Intelligenz, 
+                    bei denen mit maschinellen Lernverfahren Muster aus Daten der Vergangenheit abgeleitet werden, 
+                    um damit Entscheidungen für die Zukunft zu treffen, sogenannte Algorithmic Decision Making Systems (ADM-Systeme). 
+                    Die DSGVO ermöglicht es Personen, die durch solche ADM-Systeme bewertet werden, 
+                    Einblick in die involvierte Logik hinter der Entscheidung zu bekommen – 
+                    damit soll die informationelle Selbstbestimmung gestärkt werden. 
+                    Auch die geplante KI-Verordnung der EU (AI-Act) enthält Anforderungen an Transparenz von KI-Systemen,
+                     um das Selbstbestimmungsrecht von Bürger:innen zu realisieren. 
+                     Eine dafür entwickelte Lösung aus der Informatik sind KI-Systeme, 
+                     die solche Erklärungen entweder für individuelle Anfragen („Warum wurde über meine Daten so entschieden?”) 
+                     oder für die allgemeine Entscheidungslogik liefern sollen (“Wie funktioniert das System?”). 
+                    Diese Ansätze sind unter dem Term explainable AI oder xAI bekannt.
+                </p>
+                <p lang="en">In recent years, 
+                    an increasing number of algorithmic decision-support systems have been used to make decisions about citizens. 
+                    Most of these systems belong to the broad category of so-called artificial intelligence, 
+                    where machine learning techniques are used to derive patterns from past data 
+                    to make decisions for the future—these are known as Algorithmic Decision-Making Systems (ADM systems). 
+                    The GDPR allows individuals affected by such ADM systems to gain insight into the logic behind the decision, 
+                    aiming to strengthen informational self-determination. 
+                    The EU's planned AI regulation (AI Act) also includes transparency requirements for AI systems to uphold citizens' rights.
+                    In computer science, several solutions for this problem have been proposed that provide explanations 
+                    either for individual queries (“Why was this decision made on my data?”) 
+                    or for the general decision-making logic (“How does the system work?”). 
+                    These approaches are known under the term explainable AI or xAI.
+                </p>
+
+                <p lang="de">Die Menge an bisher veröffentlichten Transparenz- und Erklärbarkeitsansätzen ist groß und umfassend. 
+                    Die noch weitgehend offene Frage ist hingegen, ob diese Ansätze tatsächlich Transparenz schaffen 
+                    oder nur eine Scheintransparenz erzeugen. Dieses Projekt widmet sich daher der Beurteilung dieser Ansätze im Hinblick auf 
+                    ihre mathematische Robustheit („Wenn ein Mängel vorliegt, kann er und unter welchen Umständen zeigt der xAI-Ansatz diesen auf?“) 
+                    und ihrer psychologischen Effektivität 
+                    („Inwieweit kann der xAI Ansatz die Entscheidungen des Systems nachvollziehbar machen?“).
+                    </p>
+                <p lang="en">The number of transparency and explainability approaches published so far is large and comprehensive. 
+                    However, the still largely open question is whether these approaches truly create an explanation for the system 
+                    or merely generate an illusion of such. 
+                    This project is therefore dedicated to evaluating these approaches in terms of their mathematical robustness 
+                    (“If there is a flaw in the ADM system, can the xAI approach detect it, 
+                    and under what circumstances?”) and their psychological effectiveness 
+                    (“To what extent can the xAI approach make the system's decisions understandable?”).
+                    
+                </p>
+                
+                <h2 lang="de">Aufbau des Projekts</h2>
+                <h2 lang="en">Project Structure</h2>
+                <h3 lang="de">Hypothesen der Forschung</h3>
+                <h3 lang="en">Research Hypotheses</h3>
+
+                <p lang="de">Wir nehmen an, dass sich die Güte, mangelhafte Eigenschaften des ADM-Systems zum Vorschein zu bringen, 
+                    von Transparenz- und Erklärbarkeitsansätzen durch zwei Aspekte ausreichend bewerten lässt: 
+                    ihrer psychologischen Effektivität und ihrer mathematischen Robustheit. 
+                    Die psychologische Effektivität bezieht sich hierbei immer auf das Zielpublikum des Transparenz- oder Erklärbarkeitsansatzes 
+                    und beschreibt die Fähigkeit, durch den Mechanismus zu einer akkuraten mentalen Repräsentation des ADM-Systems zu gelangen.
+                    Mithilfe dieser mentalen Repräsentation lassen sich dann die Ergebnisse des ADM-Systems ausreichend vorhersagen. 
+                    Die mathematische Robustheit eines Transparenz- oder Erklärbarkeitsansatz beschreibt dagegen 
+                    eine Eigenschaft des Ansatzes selbst, die mangelhafte Eigenschaft zum Vorschein zu bringen. 
+                    Ein Ansatz gilt dann als robust, wenn ein Mangel des ADM-Systems ausreichend sichtbar gemacht wird, 
+                    und, in dem Fall, dass kein Mangel vorliegt, 
+                    auch kein Mangel ausgezeigt wird.</p>
+                <p lang="en">We assume that the ability of transparency 
+                    and explainability approaches to reveal deficiencies in an ADM system can be sufficiently assessed based on two aspects: 
+                    their psychological effectiveness and their mathematical robustness.
+                    </p>
+                
+                <p lang="en">Psychological effectiveness is always measured with the target audience of the transparency 
+                    or explainability approach in mind and describes the ability of the mechanism 
+                    to create an accurate mental representation of the ADM system. With this mental representation, 
+                    the outcomes of the ADM system can be sufficiently predicted.</p>
+
+                <p lang="en">In contrast, 
+                    the mathematical robustness of a transparency 
+                    or explainability approach describes an inherent property of the approach itself—the ability to reveal deficiencies. 
+                    An approach is considered robust if it makes a deficiency in the ADM system sufficiently visible and, 
+                    in cases where no deficiency exists, does not falsely indicate one.</p>
+            
+                <h3 lang="de">Relevanz des Projekts</h3>
+                <h3 lang="en">Relevance of the Project</h3>
+
+                <p lang="de">Sowohl der DSGVO und der geplante AI-Act sehen eine Überprüfung von kritischen ADM-Systemen durch 
+                    die Offenlegung ihrer inneren Logik vor. In den nächsten Jahren müssen daher Prozesse entwickelt werden, 
+                    die geeignete Transparenz- oder Erklärbarkeitsansätze bei der Beurteilung von ADM-Systemen beinhalten. 
+                    Hierbei ist allerdings nicht klar, 
+                    welche der vorhandenen Transparenz- oder Erklärbarkeitsansätze hierzu ausreichend geeignet sind. 
+                    Die im Projekt erhobene Güte verschiedener Ansätze kann dabei 
+                    richtungsgebend bei der praktischen Umsetzung dieser gesetzlichen Vorgaben helfen. </p>
+                <p lang="en">Both the GDPR and the proposed AI Act require the review of critical ADM systems by disclosing their internal logic.
+                    In the coming years, processes must be developed that incorporate suitable transparency or 
+                    explainability approaches for assessing ADM systems. 
+                    However, it is not yet clear which of the existing transparency or 
+                    explainability approaches are sufficiently suitable for this purpose. The evaluation of different approaches conducted 
+                    in this project can provide valuable guidance for the practical implementation of these legal requirements.
+                    </p>
+
+                <h3 lang="de">Ziel der Forschung</h3>
+                <h3 lang="en">Goal of the Project</h3>
+
+                <p lang="de">Ziel der Forschung ist es, diverse Transparenz- oder Erklärbarkeitsansätze auf ihre Güte zu untersuchen und 
+                    anhand der angewendeten Methodik eine Einschätzung zu liefern, 
+                    ob sich diese Ansätze zur Offenlegung der inneren Logik von ADM-Systemen eignen. </p>
+                <p lang="en">The aim of this research is to evaluate various transparency 
+                    and explainability approaches in terms of their quality and, based on the applied methodology, 
+                    provide an assessment of whether these approaches are suitable for disclosing the internal logic of ADM systems.  
+                    </p>
+
+               
+            </div>
+        </section>
+        
+
+    </div>
+
+    
+
+    <footer class="footer fixed-bottom" id="footer">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                    <a class="" target="_parent" href="https://www.uni-kl.de/impressum/">Impressum</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                    <a class="" target="_parent" href="https://www.uni-kl.de/datenschutzerklaerung/"> <span lang="de"> Datenschutz </span>
+                                                                                                    <span lang="en"> Data Protection</span></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                    <a class="" target="_parent" href="../kontakt.html"> <span lang="de"> Kontakt </span>
+                                                                        <span lang="en"> Contact</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body></html>
